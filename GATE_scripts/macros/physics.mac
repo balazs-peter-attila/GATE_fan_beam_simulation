@@ -1,0 +1,33 @@
+
+# Note that by default, no physical process is included in the simulation.
+# Each physical process has to be added explicitely.
+
+# Here, we add EM processes based on the standard model (except for Rayleigh which only has low energy models)
+/gate/physics/addProcess PhotoElectric gamma
+/gate/physics/processes/PhotoElectric/setModel StandardModel
+#/gate/physics/processes/PhotoElectric/setStepFunction [Particle] [Ratio] [Final range] [Unit]
+#/gate/physics/processes/PhotoElectric/setStepFunction gamma 0.2 1e-7 mm
+
+
+#/gate/physics/addProcess Compton
+#/gate/physics/processes/Compton/setModel StandardModel
+
+#/gate/physics/addProcess RayleighScattering
+#/gate/physics/processes/RayleighScattering/setModel PenelopeModel
+
+/gate/physics/addProcess ElectronIonisation
+/gate/physics/processes/ElectronIonisation/setModel StandardModel e-
+#/gate/physics/processes/ElectronIonisation/setModel StandardModel e+
+#/gate/physics/processes/ElectronIonisation/setStepFunction e- 0.2 1e-7 mm
+
+#/gate/physics/addProcess Bremsstrahlung
+#/gate/physics/processes/Bremsstrahlung/setModel StandardModel e-
+#/gate/physics/processes/Bremsstrahlung/setModel StandardModel e+
+
+#/gate/physics/addProcess eMultipleScattering e-
+#/gate/physics/processes/eMultipleScattering/setModel Urban95Model e-
+#/gate/physics/processes/eMultipleScattering/setModel Urban95Model e+
+
+/gate/physics/processList Enabled
+/gate/physics/processList Initialized
+

@@ -1,0 +1,14 @@
+
+# Digitizer
+
+# This module adds the different hits inside the crystal as pulses
+/gate/digitizer/Singles/insert adder
+# This module adds the different pulses inside the given depth (here depth=2 = cluster)
+/gate/digitizer/Singles/insert readout
+/gate/digitizer/Singles/readout/setDepth 2
+# This module applies a thresholder on the deposited energy 
+/gate/digitizer/Singles/insert thresholder
+/gate/digitizer/Singles/thresholder/setThreshold 10 keV
+
+#/gate/digitizer/verbose 0
+

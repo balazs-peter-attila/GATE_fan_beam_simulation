@@ -1,0 +1,25 @@
+### WINDOW
+/gate/world/daughters/name window
+/gate/world/daughters/insert box
+/gate/window/geometry/setXLength  188 mm
+/gate/window/geometry/setYLength  188 mm
+/gate/window/geometry/setZLength  0.5 mm
+/gate/window/placement/setTranslation 0 0 -205 mm
+##Shifted 2mm to save space for the lead shield outside the vacuum chamber
+##/gate/window/placement/setTranslation 0 0 -203 mm
+/gate/window/setMaterial Kapton
+/gate/window/vis/forceSolid
+/gate/window/vis/setColor grey
+
+###VACUUM CHAMBER
+/gate/world/daughters/name chamber
+/gate/world/daughters/insert box
+/gate/chamber/geometry/setXLength  470 mm
+/gate/chamber/geometry/setYLength  470 mm
+/gate/chamber/geometry/setZLength  220 mm
+/gate/chamber/placement/setTranslation 0 0 -315 mm
+##Shifted 2mm to save space for the lead shield outside the vacuum chamber
+##gate/chamber/placement/setTranslation 0 0 -313 mm
+/gate/chamber/setMaterial Vacuum
+/gate/chamber/vis/forceWireframe
+/gate/chamber/vis/setColor blue

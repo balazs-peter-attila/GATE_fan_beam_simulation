@@ -1,0 +1,88 @@
+
+####  General informations about the scanner
+# CT scanner for small animal imaging
+# 362 x 1 pixels in one module
+# Size of pixels : 0.5x 0.2 x 10.0 mm3
+# Pixels are made up of NaI - sodium-iodide (no dead space between pixels)
+# This scanner is designed to be fixed (the phantom will rotate instead).
+# Let's position it perpendicular to the Z axis.
+
+
+## CTscanner system (this is the encompassing volume)
+# This first volume containing the scanner should have the same hard-coded name
+# as the one predefined in GATE (here CTscanner)
+# Create it as a box that can contain all pixels
+# Set it 100 mm away from the center of the world along the Z axis
+# Set material Air, and visualize it as a white wire frame
+/gate/world/daughters/name CTscanner
+/gate/world/daughters/insert box
+/gate/CTscanner/geometry/setXLength  470 mm
+/gate/CTscanner/geometry/setYLength  470 mm
+#/gate/CTscanner/geometry/setZLength  850 mm
+/gate/CTscanner/geometry/setZLength  1 mm
+/gate/CTscanner/placement/setTranslation 0 0 424.5 mm
+/gate/CTscanner/setMaterial Air
+#/gate/CTscanner/vis/forceWireframe
+#/gate/CTscanner/vis/setColor white
+
+## The first component of the CTscanner is the module
+# CTSCANNER #   ---->   #  MODULE  #
+# Here we will use only one module, so just create it identical to the encompassing volume
+/gate/CTscanner/daughters/name module
+/gate/CTscanner/daughters/insert box
+/gate/module/geometry/setXLength  470 mm
+/gate/module/geometry/setYLength  470 mm
+/gate/module/geometry/setZLength  1 mm
+/gate/module/setMaterial Air
+#/gate/module/vis/forceWireframe
+#/gate/module/vis/setColor blue
+
+## The second component of the CTscanner is the cluster (located inside the module)
+# There are 3 possible clusters: cluster_0, cluster_1 and cluster_2
+#  MODULE  #   ---->   # CLUSTER_0 #
+# Here we will use only one type of clusters, so again just create it identical to the mother volume
+/gate/module/daughters/name cluster
+/gate/module/daughters/insert box
+/gate/cluster/geometry/setXLength  470 mm
+/gate/cluster/geometry/setYLength  470 mm
+/gate/cluster/geometry/setZLength  1 mm
+/gate/cluster/setMaterial Air
+/gate/cluster/vis/forceWireframe
+/gate/cluster/vis/setColor white
+
+## The third component of the CTscanner is the pixel (located inside the cluster)
+# There are 3 possible pixels, one by cluster: pixel_0 (in cluster_0), pixel_1 (in cluster_1) and pixel_2 (in cluster_2)
+#  MODULE  #   ---->     # CLUSTER_0 #   ---->   # PIXEL_0 #
+# Here we will use only one type of pixels
+# The pixel size is 0.5 x 0.2 x 10 mm3
+# Visualize it as a solid object, color of your choice
+/gate/cluster/daughters/name pixel
+/gate/cluster/daughters/insert box
+/gate/pixel/geometry/setXLength 0.08 mm
+/gate/pixel/geometry/setYLength 0.08 mm
+/gate/pixel/geometry/setZLength 1 mm
+/gate/pixel/setMaterial NaI
+/gate/pixel/vis/forceSolid
+/gate/pixel/vis/setColor red
+# Note: the repeated objects will be automatically centered on the original position of the single volume
+/gate/pixel/repeaters/insert cubicArray
+#/gate/pixel/cubicArray/setRepeatNumberX 5566
+#Number of detector pixels is reduced for faster simulation
+/gate/pixel/cubicArray/setRepeatNumberX 2566
+/gate/pixel/cubicArray/setRepeatNumberY 1
+/gate/pixel/cubicArray/setRepeatNumberZ 1
+/gate/pixel/cubicArray/setRepeatVector 0.08 0. 0. mm
+
+
+## Attach to hard-coded CTscanner system (here only cluster_0 and pixel_0 are used)
+# These commands allow GATE to make a link between the arbitrary volumes you defined and the predefined components of
+# the system in use (here the CTscanner). It is used to make a link with the output modules associated to the system.
+/gate/systems/CTscanner/module/attach module
+/gate/systems/CTscanner/cluster_0/attach cluster
+/gate/systems/CTscanner/pixel_0/attach pixel
+
+## Attach the pixel as the crystal sensitive detector
+# This command is used to specify which arbitrary volume is used as the sensitive volume.
+# All interactions occuring in this volume can be recorded and analyzed.
+/gate/pixel/attachCrystalSD
+
