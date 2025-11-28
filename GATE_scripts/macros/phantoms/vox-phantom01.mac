@@ -1,0 +1,32 @@
+/gate/world/daughters/name encapsulatingBox
+/gate/world/daughters/insert box
+/gate/encapsulatingBox/geometry/setXLength 100 mm
+/gate/encapsulatingBox/geometry/setYLength 100 mm
+/gate/encapsulatingBox/geometry/setZLength 100 mm
+/gate/encapsulatingBox/placement/setTranslation  0 0 100 mm
+/gate/encapsulatingBox/setMaterial Air
+/gate/encapsulatingBox/vis/forceWireframe
+/gate/encapsulatingBox/vis/setColor white
+
+# Moving among view angles 
+/gate/encapsulatingBox/placement/alignToY
+#/gate/encapsulatingBox/moves/insert orbiting
+#/gate/encapsulatingBox/orbiting/setSpeed 0.3163 deg/s
+#/gate/encapsulatingBox/orbiting/setPoint1 0  0 0 mm
+#/gate/encapsulatingBox/orbiting/setPoint2 0 10 0 mm
+#/gate/encapsulatingBox/orbiting/disableAutoRotation 1
+/gate/encapsulatingBox/moves/insert rotation
+#/gate/encapsulatingBox/rotation/setSpeed 0.3163 deg/s
+/gate/encapsulatingBox/rotation/setSpeed 1 deg/s
+#/gate/encapsulatingBox/rotation/setSpeed 0.2 deg/s
+#/gate/encapsulatingBox/rotation/setSpeed 2.5 deg/s
+#/gate/encapsulatingBox/rotation/setSpeed 36 deg/s
+/gate/encapsulatingBox/rotation/setAxis 0 0 1
+
+/gate/encapsulatingBox/daughters/name phantom
+/gate/encapsulatingBox/daughters/insert ImageNestedParametrisedVolume
+/gate/phantom/geometry/setRangeToMaterialFile data/AttenuationRange.dat
+/gate/phantom/geometry/setImage data/phantom_3_h.hdr
+
+## It is better set to FALSE, there a Geant4 BUG in this optimization
+#/gate/phantom/setSkipEqualMaterials false

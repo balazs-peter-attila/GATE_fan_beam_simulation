@@ -1,0 +1,1543 @@
+/gate/world/daughters/name encapsulatingBox
+/gate/world/daughters/insert box
+/gate/encapsulatingBox/geometry/setXLength 100 mm
+/gate/encapsulatingBox/geometry/setYLength 100 mm
+/gate/encapsulatingBox/geometry/setZLength 100 mm
+/gate/encapsulatingBox/placement/setTranslation  0 0 100 mm
+/gate/encapsulatingBox/setMaterial Air
+/gate/encapsulatingBox/vis/forceWireframe
+/gate/encapsulatingBox/vis/setColor white
+/gate/encapsulatingBox/moves/insert rotation
+/gate/encapsulatingBox/rotation/setSpeed 1 deg/s
+/gate/encapsulatingBox/rotation/setAxis 0 1 0
+
+/gate/encapsulatingBox/daughters/name voxel_0001
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0001/geometry/setXLength 0.2 mm
+/gate/voxel_0001/geometry/setYLength 1 mm
+/gate/voxel_0001/geometry/setZLength 1.2 mm
+/gate/voxel_0001/setMaterial Plastic
+/gate/voxel_0001/vis/forceSolid
+/gate/voxel_0001/vis/setColor yellow
+/gate/voxel_0001/placement/setTranslation -20.9 0 -2.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0002
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0002/geometry/setXLength 0.2 mm
+/gate/voxel_0002/geometry/setYLength 1 mm
+/gate/voxel_0002/geometry/setZLength 2.2 mm
+/gate/voxel_0002/setMaterial Plastic
+/gate/voxel_0002/vis/forceSolid
+/gate/voxel_0002/vis/setColor yellow
+/gate/voxel_0002/placement/setTranslation -20.7 0 -2.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0003
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0003/geometry/setXLength 0.2 mm
+/gate/voxel_0003/geometry/setYLength 1 mm
+/gate/voxel_0003/geometry/setZLength 4.4 mm
+/gate/voxel_0003/setMaterial Plastic
+/gate/voxel_0003/vis/forceSolid
+/gate/voxel_0003/vis/setColor yellow
+/gate/voxel_0003/placement/setTranslation -20.5 0 -3.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0004
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0004/geometry/setXLength 0.2 mm
+/gate/voxel_0004/geometry/setYLength 1 mm
+/gate/voxel_0004/geometry/setZLength 5.2 mm
+/gate/voxel_0004/setMaterial Plastic
+/gate/voxel_0004/vis/forceSolid
+/gate/voxel_0004/vis/setColor yellow
+/gate/voxel_0004/placement/setTranslation -20.3 0 -3.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0005
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0005/geometry/setXLength 0.2 mm
+/gate/voxel_0005/geometry/setYLength 1 mm
+/gate/voxel_0005/geometry/setZLength 6.0 mm
+/gate/voxel_0005/setMaterial Plastic
+/gate/voxel_0005/vis/forceSolid
+/gate/voxel_0005/vis/setColor yellow
+/gate/voxel_0005/placement/setTranslation -20.1 0 -3.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0006
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0006/geometry/setXLength 0.2 mm
+/gate/voxel_0006/geometry/setYLength 1 mm
+/gate/voxel_0006/geometry/setZLength 6.6 mm
+/gate/voxel_0006/setMaterial Plastic
+/gate/voxel_0006/vis/forceSolid
+/gate/voxel_0006/vis/setColor yellow
+/gate/voxel_0006/placement/setTranslation -19.9 0 -3.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0007
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0007/geometry/setXLength 0.2 mm
+/gate/voxel_0007/geometry/setYLength 1 mm
+/gate/voxel_0007/geometry/setZLength 7.0 mm
+/gate/voxel_0007/setMaterial Plastic
+/gate/voxel_0007/vis/forceSolid
+/gate/voxel_0007/vis/setColor yellow
+/gate/voxel_0007/placement/setTranslation -19.7 0 -3.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0008
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0008/geometry/setXLength 0.2 mm
+/gate/voxel_0008/geometry/setYLength 1 mm
+/gate/voxel_0008/geometry/setZLength 7.6 mm
+/gate/voxel_0008/setMaterial Plastic
+/gate/voxel_0008/vis/forceSolid
+/gate/voxel_0008/vis/setColor yellow
+/gate/voxel_0008/placement/setTranslation -19.5 0 -3.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0009
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0009/geometry/setXLength 0.2 mm
+/gate/voxel_0009/geometry/setYLength 1 mm
+/gate/voxel_0009/geometry/setZLength 8.0 mm
+/gate/voxel_0009/setMaterial Plastic
+/gate/voxel_0009/vis/forceSolid
+/gate/voxel_0009/vis/setColor yellow
+/gate/voxel_0009/placement/setTranslation -19.3 0 -3.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0010
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0010/geometry/setXLength 0.2 mm
+/gate/voxel_0010/geometry/setYLength 1 mm
+/gate/voxel_0010/geometry/setZLength 8.4 mm
+/gate/voxel_0010/setMaterial Plastic
+/gate/voxel_0010/vis/forceSolid
+/gate/voxel_0010/vis/setColor yellow
+/gate/voxel_0010/placement/setTranslation -19.1 0 -3.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0011
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0011/geometry/setXLength 0.2 mm
+/gate/voxel_0011/geometry/setYLength 1 mm
+/gate/voxel_0011/geometry/setZLength 9.0 mm
+/gate/voxel_0011/setMaterial Plastic
+/gate/voxel_0011/vis/forceSolid
+/gate/voxel_0011/vis/setColor yellow
+/gate/voxel_0011/placement/setTranslation -18.9 0 -3.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0012
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0012/geometry/setXLength 0.2 mm
+/gate/voxel_0012/geometry/setYLength 1 mm
+/gate/voxel_0012/geometry/setZLength 9.4 mm
+/gate/voxel_0012/setMaterial Plastic
+/gate/voxel_0012/vis/forceSolid
+/gate/voxel_0012/vis/setColor yellow
+/gate/voxel_0012/placement/setTranslation -18.7 0 -3.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0013
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0013/geometry/setXLength 0.2 mm
+/gate/voxel_0013/geometry/setYLength 1 mm
+/gate/voxel_0013/geometry/setZLength 9.8 mm
+/gate/voxel_0013/setMaterial Plastic
+/gate/voxel_0013/vis/forceSolid
+/gate/voxel_0013/vis/setColor yellow
+/gate/voxel_0013/placement/setTranslation -18.5 0 -3.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0014
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0014/geometry/setXLength 0.2 mm
+/gate/voxel_0014/geometry/setYLength 1 mm
+/gate/voxel_0014/geometry/setZLength 10.2 mm
+/gate/voxel_0014/setMaterial Plastic
+/gate/voxel_0014/vis/forceSolid
+/gate/voxel_0014/vis/setColor yellow
+/gate/voxel_0014/placement/setTranslation -18.3 0 -3.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0015
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0015/geometry/setXLength 0.2 mm
+/gate/voxel_0015/geometry/setYLength 1 mm
+/gate/voxel_0015/geometry/setZLength 10.8 mm
+/gate/voxel_0015/setMaterial Plastic
+/gate/voxel_0015/vis/forceSolid
+/gate/voxel_0015/vis/setColor yellow
+/gate/voxel_0015/placement/setTranslation -18.1 0 -3.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0016
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0016/geometry/setXLength 0.2 mm
+/gate/voxel_0016/geometry/setYLength 1 mm
+/gate/voxel_0016/geometry/setZLength 11.0 mm
+/gate/voxel_0016/setMaterial Plastic
+/gate/voxel_0016/vis/forceSolid
+/gate/voxel_0016/vis/setColor yellow
+/gate/voxel_0016/placement/setTranslation -17.9 0 -3.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0017
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0017/geometry/setXLength 0.2 mm
+/gate/voxel_0017/geometry/setYLength 1 mm
+/gate/voxel_0017/geometry/setZLength 11.4 mm
+/gate/voxel_0017/setMaterial Plastic
+/gate/voxel_0017/vis/forceSolid
+/gate/voxel_0017/vis/setColor yellow
+/gate/voxel_0017/placement/setTranslation -17.7 0 -3.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0018
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0018/geometry/setXLength 0.2 mm
+/gate/voxel_0018/geometry/setYLength 1 mm
+/gate/voxel_0018/geometry/setZLength 11.8 mm
+/gate/voxel_0018/setMaterial Plastic
+/gate/voxel_0018/vis/forceSolid
+/gate/voxel_0018/vis/setColor yellow
+/gate/voxel_0018/placement/setTranslation -17.5 0 -3.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0019
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0019/geometry/setXLength 0.2 mm
+/gate/voxel_0019/geometry/setYLength 1 mm
+/gate/voxel_0019/geometry/setZLength 12.0 mm
+/gate/voxel_0019/setMaterial Plastic
+/gate/voxel_0019/vis/forceSolid
+/gate/voxel_0019/vis/setColor yellow
+/gate/voxel_0019/placement/setTranslation -17.3 0 -3.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0020
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0020/geometry/setXLength 0.2 mm
+/gate/voxel_0020/geometry/setYLength 1 mm
+/gate/voxel_0020/geometry/setZLength 12.4 mm
+/gate/voxel_0020/setMaterial Plastic
+/gate/voxel_0020/vis/forceSolid
+/gate/voxel_0020/vis/setColor yellow
+/gate/voxel_0020/placement/setTranslation -17.1 0 -3.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0021
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0021/geometry/setXLength 0.2 mm
+/gate/voxel_0021/geometry/setYLength 1 mm
+/gate/voxel_0021/geometry/setZLength 12.6 mm
+/gate/voxel_0021/setMaterial Plastic
+/gate/voxel_0021/vis/forceSolid
+/gate/voxel_0021/vis/setColor yellow
+/gate/voxel_0021/placement/setTranslation -16.9 0 -2.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0022
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0022/geometry/setXLength 0.2 mm
+/gate/voxel_0022/geometry/setYLength 1 mm
+/gate/voxel_0022/geometry/setZLength 13.2 mm
+/gate/voxel_0022/setMaterial Plastic
+/gate/voxel_0022/vis/forceSolid
+/gate/voxel_0022/vis/setColor yellow
+/gate/voxel_0022/placement/setTranslation -16.7 0 -2.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0023
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0023/geometry/setXLength 0.2 mm
+/gate/voxel_0023/geometry/setYLength 1 mm
+/gate/voxel_0023/geometry/setZLength 13.4 mm
+/gate/voxel_0023/setMaterial Plastic
+/gate/voxel_0023/vis/forceSolid
+/gate/voxel_0023/vis/setColor yellow
+/gate/voxel_0023/placement/setTranslation -16.5 0 -2.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0024
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0024/geometry/setXLength 0.2 mm
+/gate/voxel_0024/geometry/setYLength 1 mm
+/gate/voxel_0024/geometry/setZLength 13.8 mm
+/gate/voxel_0024/setMaterial Plastic
+/gate/voxel_0024/vis/forceSolid
+/gate/voxel_0024/vis/setColor yellow
+/gate/voxel_0024/placement/setTranslation -16.3 0 -2.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0025
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0025/geometry/setXLength 0.2 mm
+/gate/voxel_0025/geometry/setYLength 1 mm
+/gate/voxel_0025/geometry/setZLength 14.2 mm
+/gate/voxel_0025/setMaterial Plastic
+/gate/voxel_0025/vis/forceSolid
+/gate/voxel_0025/vis/setColor yellow
+/gate/voxel_0025/placement/setTranslation -16.1 0 -2.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0026
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0026/geometry/setXLength 0.2 mm
+/gate/voxel_0026/geometry/setYLength 1 mm
+/gate/voxel_0026/geometry/setZLength 14.6 mm
+/gate/voxel_0026/setMaterial Plastic
+/gate/voxel_0026/vis/forceSolid
+/gate/voxel_0026/vis/setColor yellow
+/gate/voxel_0026/placement/setTranslation -15.9 0 -2.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0027
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0027/geometry/setXLength 0.2 mm
+/gate/voxel_0027/geometry/setYLength 1 mm
+/gate/voxel_0027/geometry/setZLength 14.8 mm
+/gate/voxel_0027/setMaterial Plastic
+/gate/voxel_0027/vis/forceSolid
+/gate/voxel_0027/vis/setColor yellow
+/gate/voxel_0027/placement/setTranslation -15.7 0 -2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0028
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0028/geometry/setXLength 0.2 mm
+/gate/voxel_0028/geometry/setYLength 1 mm
+/gate/voxel_0028/geometry/setZLength 15.4 mm
+/gate/voxel_0028/setMaterial Plastic
+/gate/voxel_0028/vis/forceSolid
+/gate/voxel_0028/vis/setColor yellow
+/gate/voxel_0028/placement/setTranslation -15.5 0 -2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0029
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0029/geometry/setXLength 0.2 mm
+/gate/voxel_0029/geometry/setYLength 1 mm
+/gate/voxel_0029/geometry/setZLength 15.6 mm
+/gate/voxel_0029/setMaterial Plastic
+/gate/voxel_0029/vis/forceSolid
+/gate/voxel_0029/vis/setColor yellow
+/gate/voxel_0029/placement/setTranslation -15.3 0 -2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0030
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0030/geometry/setXLength 0.2 mm
+/gate/voxel_0030/geometry/setYLength 1 mm
+/gate/voxel_0030/geometry/setZLength 16.0 mm
+/gate/voxel_0030/setMaterial Plastic
+/gate/voxel_0030/vis/forceSolid
+/gate/voxel_0030/vis/setColor yellow
+/gate/voxel_0030/placement/setTranslation -15.1 0 -2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0031
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0031/geometry/setXLength 0.2 mm
+/gate/voxel_0031/geometry/setYLength 1 mm
+/gate/voxel_0031/geometry/setZLength 16.2 mm
+/gate/voxel_0031/setMaterial Plastic
+/gate/voxel_0031/vis/forceSolid
+/gate/voxel_0031/vis/setColor yellow
+/gate/voxel_0031/placement/setTranslation -14.9 0 -2.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0032
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0032/geometry/setXLength 0.2 mm
+/gate/voxel_0032/geometry/setYLength 1 mm
+/gate/voxel_0032/geometry/setZLength 16.6 mm
+/gate/voxel_0032/setMaterial Plastic
+/gate/voxel_0032/vis/forceSolid
+/gate/voxel_0032/vis/setColor yellow
+/gate/voxel_0032/placement/setTranslation -14.7 0 -2.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0033
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0033/geometry/setXLength 0.2 mm
+/gate/voxel_0033/geometry/setYLength 1 mm
+/gate/voxel_0033/geometry/setZLength 17.0 mm
+/gate/voxel_0033/setMaterial Plastic
+/gate/voxel_0033/vis/forceSolid
+/gate/voxel_0033/vis/setColor yellow
+/gate/voxel_0033/placement/setTranslation -14.5 0 -1.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0034
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0034/geometry/setXLength 0.2 mm
+/gate/voxel_0034/geometry/setYLength 1 mm
+/gate/voxel_0034/geometry/setZLength 17.2 mm
+/gate/voxel_0034/setMaterial Plastic
+/gate/voxel_0034/vis/forceSolid
+/gate/voxel_0034/vis/setColor yellow
+/gate/voxel_0034/placement/setTranslation -14.3 0 -1.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0035
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0035/geometry/setXLength 0.2 mm
+/gate/voxel_0035/geometry/setYLength 1 mm
+/gate/voxel_0035/geometry/setZLength 17.6 mm
+/gate/voxel_0035/setMaterial Plastic
+/gate/voxel_0035/vis/forceSolid
+/gate/voxel_0035/vis/setColor yellow
+/gate/voxel_0035/placement/setTranslation -14.1 0 -1.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0036
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0036/geometry/setXLength 0.2 mm
+/gate/voxel_0036/geometry/setYLength 1 mm
+/gate/voxel_0036/geometry/setZLength 17.8 mm
+/gate/voxel_0036/setMaterial Plastic
+/gate/voxel_0036/vis/forceSolid
+/gate/voxel_0036/vis/setColor yellow
+/gate/voxel_0036/placement/setTranslation -13.9 0 -1.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0037
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0037/geometry/setXLength 0.2 mm
+/gate/voxel_0037/geometry/setYLength 1 mm
+/gate/voxel_0037/geometry/setZLength 18.0 mm
+/gate/voxel_0037/setMaterial Plastic
+/gate/voxel_0037/vis/forceSolid
+/gate/voxel_0037/vis/setColor yellow
+/gate/voxel_0037/placement/setTranslation -13.7 0 -1.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0038
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0038/geometry/setXLength 0.2 mm
+/gate/voxel_0038/geometry/setYLength 1 mm
+/gate/voxel_0038/geometry/setZLength 18.4 mm
+/gate/voxel_0038/setMaterial Plastic
+/gate/voxel_0038/vis/forceSolid
+/gate/voxel_0038/vis/setColor yellow
+/gate/voxel_0038/placement/setTranslation -13.5 0 -1.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0039
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0039/geometry/setXLength 0.2 mm
+/gate/voxel_0039/geometry/setYLength 1 mm
+/gate/voxel_0039/geometry/setZLength 18.6 mm
+/gate/voxel_0039/setMaterial Plastic
+/gate/voxel_0039/vis/forceSolid
+/gate/voxel_0039/vis/setColor yellow
+/gate/voxel_0039/placement/setTranslation -13.3 0 -1.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0040
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0040/geometry/setXLength 0.2 mm
+/gate/voxel_0040/geometry/setYLength 1 mm
+/gate/voxel_0040/geometry/setZLength 18.8 mm
+/gate/voxel_0040/setMaterial Plastic
+/gate/voxel_0040/vis/forceSolid
+/gate/voxel_0040/vis/setColor yellow
+/gate/voxel_0040/placement/setTranslation -13.1 0 -1.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0041
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0041/geometry/setXLength 0.2 mm
+/gate/voxel_0041/geometry/setYLength 1 mm
+/gate/voxel_0041/geometry/setZLength 19.2 mm
+/gate/voxel_0041/setMaterial Plastic
+/gate/voxel_0041/vis/forceSolid
+/gate/voxel_0041/vis/setColor yellow
+/gate/voxel_0041/placement/setTranslation -12.9 0 -1.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0042
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0042/geometry/setXLength 0.2 mm
+/gate/voxel_0042/geometry/setYLength 1 mm
+/gate/voxel_0042/geometry/setZLength 19.4 mm
+/gate/voxel_0042/setMaterial Plastic
+/gate/voxel_0042/vis/forceSolid
+/gate/voxel_0042/vis/setColor yellow
+/gate/voxel_0042/placement/setTranslation -12.7 0 -1.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0043
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0043/geometry/setXLength 0.2 mm
+/gate/voxel_0043/geometry/setYLength 1 mm
+/gate/voxel_0043/geometry/setZLength 19.6 mm
+/gate/voxel_0043/setMaterial Plastic
+/gate/voxel_0043/vis/forceSolid
+/gate/voxel_0043/vis/setColor yellow
+/gate/voxel_0043/placement/setTranslation -12.5 0 -1.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0044
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0044/geometry/setXLength 0.2 mm
+/gate/voxel_0044/geometry/setYLength 1 mm
+/gate/voxel_0044/geometry/setZLength 19.8 mm
+/gate/voxel_0044/setMaterial Plastic
+/gate/voxel_0044/vis/forceSolid
+/gate/voxel_0044/vis/setColor yellow
+/gate/voxel_0044/placement/setTranslation -12.3 0 -1.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0045
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0045/geometry/setXLength 0.2 mm
+/gate/voxel_0045/geometry/setYLength 1 mm
+/gate/voxel_0045/geometry/setZLength 20.2 mm
+/gate/voxel_0045/setMaterial Plastic
+/gate/voxel_0045/vis/forceSolid
+/gate/voxel_0045/vis/setColor yellow
+/gate/voxel_0045/placement/setTranslation -12.1 0 -1.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0046
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0046/geometry/setXLength 0.2 mm
+/gate/voxel_0046/geometry/setYLength 1 mm
+/gate/voxel_0046/geometry/setZLength 20.4 mm
+/gate/voxel_0046/setMaterial Plastic
+/gate/voxel_0046/vis/forceSolid
+/gate/voxel_0046/vis/setColor yellow
+/gate/voxel_0046/placement/setTranslation -11.9 0 -1.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0047
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0047/geometry/setXLength 0.2 mm
+/gate/voxel_0047/geometry/setYLength 1 mm
+/gate/voxel_0047/geometry/setZLength 20.6 mm
+/gate/voxel_0047/setMaterial Plastic
+/gate/voxel_0047/vis/forceSolid
+/gate/voxel_0047/vis/setColor yellow
+/gate/voxel_0047/placement/setTranslation -11.7 0 -0.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0048
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0048/geometry/setXLength 0.2 mm
+/gate/voxel_0048/geometry/setYLength 1 mm
+/gate/voxel_0048/geometry/setZLength 20.8 mm
+/gate/voxel_0048/setMaterial Plastic
+/gate/voxel_0048/vis/forceSolid
+/gate/voxel_0048/vis/setColor yellow
+/gate/voxel_0048/placement/setTranslation -11.5 0 -0.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0049
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0049/geometry/setXLength 0.2 mm
+/gate/voxel_0049/geometry/setYLength 1 mm
+/gate/voxel_0049/geometry/setZLength 21.2 mm
+/gate/voxel_0049/setMaterial Plastic
+/gate/voxel_0049/vis/forceSolid
+/gate/voxel_0049/vis/setColor yellow
+/gate/voxel_0049/placement/setTranslation -11.3 0 -0.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0050
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0050/geometry/setXLength 0.2 mm
+/gate/voxel_0050/geometry/setYLength 1 mm
+/gate/voxel_0050/geometry/setZLength 21.4 mm
+/gate/voxel_0050/setMaterial Plastic
+/gate/voxel_0050/vis/forceSolid
+/gate/voxel_0050/vis/setColor yellow
+/gate/voxel_0050/placement/setTranslation -11.1 0 -0.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0051
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0051/geometry/setXLength 0.2 mm
+/gate/voxel_0051/geometry/setYLength 1 mm
+/gate/voxel_0051/geometry/setZLength 21.8 mm
+/gate/voxel_0051/setMaterial Plastic
+/gate/voxel_0051/vis/forceSolid
+/gate/voxel_0051/vis/setColor yellow
+/gate/voxel_0051/placement/setTranslation -10.9 0 -0.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0052
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0052/geometry/setXLength 0.2 mm
+/gate/voxel_0052/geometry/setYLength 1 mm
+/gate/voxel_0052/geometry/setZLength 22.0 mm
+/gate/voxel_0052/setMaterial Plastic
+/gate/voxel_0052/vis/forceSolid
+/gate/voxel_0052/vis/setColor yellow
+/gate/voxel_0052/placement/setTranslation -10.7 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0053
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0053/geometry/setXLength 0.2 mm
+/gate/voxel_0053/geometry/setYLength 1 mm
+/gate/voxel_0053/geometry/setZLength 22.2 mm
+/gate/voxel_0053/setMaterial Plastic
+/gate/voxel_0053/vis/forceSolid
+/gate/voxel_0053/vis/setColor yellow
+/gate/voxel_0053/placement/setTranslation -10.5 0 -0.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0054
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0054/geometry/setXLength 0.2 mm
+/gate/voxel_0054/geometry/setYLength 1 mm
+/gate/voxel_0054/geometry/setZLength 22.4 mm
+/gate/voxel_0054/setMaterial Plastic
+/gate/voxel_0054/vis/forceSolid
+/gate/voxel_0054/vis/setColor yellow
+/gate/voxel_0054/placement/setTranslation -10.3 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0055
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0055/geometry/setXLength 0.2 mm
+/gate/voxel_0055/geometry/setYLength 1 mm
+/gate/voxel_0055/geometry/setZLength 22.8 mm
+/gate/voxel_0055/setMaterial Plastic
+/gate/voxel_0055/vis/forceSolid
+/gate/voxel_0055/vis/setColor yellow
+/gate/voxel_0055/placement/setTranslation -10.1 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0056
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0056/geometry/setXLength 0.2 mm
+/gate/voxel_0056/geometry/setYLength 1 mm
+/gate/voxel_0056/geometry/setZLength 23.0 mm
+/gate/voxel_0056/setMaterial Plastic
+/gate/voxel_0056/vis/forceSolid
+/gate/voxel_0056/vis/setColor yellow
+/gate/voxel_0056/placement/setTranslation -9.9 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0057
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0057/geometry/setXLength 0.2 mm
+/gate/voxel_0057/geometry/setYLength 1 mm
+/gate/voxel_0057/geometry/setZLength 23.2 mm
+/gate/voxel_0057/setMaterial Plastic
+/gate/voxel_0057/vis/forceSolid
+/gate/voxel_0057/vis/setColor yellow
+/gate/voxel_0057/placement/setTranslation -9.7 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0058
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0058/geometry/setXLength 0.2 mm
+/gate/voxel_0058/geometry/setYLength 1 mm
+/gate/voxel_0058/geometry/setZLength 23.4 mm
+/gate/voxel_0058/setMaterial Plastic
+/gate/voxel_0058/vis/forceSolid
+/gate/voxel_0058/vis/setColor yellow
+/gate/voxel_0058/placement/setTranslation -9.5 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0059
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0059/geometry/setXLength 0.2 mm
+/gate/voxel_0059/geometry/setYLength 1 mm
+/gate/voxel_0059/geometry/setZLength 23.6 mm
+/gate/voxel_0059/setMaterial Plastic
+/gate/voxel_0059/vis/forceSolid
+/gate/voxel_0059/vis/setColor yellow
+/gate/voxel_0059/placement/setTranslation -9.3 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0060
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0060/geometry/setXLength 0.2 mm
+/gate/voxel_0060/geometry/setYLength 1 mm
+/gate/voxel_0060/geometry/setZLength 23.8 mm
+/gate/voxel_0060/setMaterial Plastic
+/gate/voxel_0060/vis/forceSolid
+/gate/voxel_0060/vis/setColor yellow
+/gate/voxel_0060/placement/setTranslation -9.1 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0061
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0061/geometry/setXLength 0.2 mm
+/gate/voxel_0061/geometry/setYLength 1 mm
+/gate/voxel_0061/geometry/setZLength 24.0 mm
+/gate/voxel_0061/setMaterial Plastic
+/gate/voxel_0061/vis/forceSolid
+/gate/voxel_0061/vis/setColor yellow
+/gate/voxel_0061/placement/setTranslation -8.9 0 -0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0062
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0062/geometry/setXLength 0.2 mm
+/gate/voxel_0062/geometry/setYLength 1 mm
+/gate/voxel_0062/geometry/setZLength 24.2 mm
+/gate/voxel_0062/setMaterial Plastic
+/gate/voxel_0062/vis/forceSolid
+/gate/voxel_0062/vis/setColor yellow
+/gate/voxel_0062/placement/setTranslation -8.7 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0063
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0063/geometry/setXLength 0.2 mm
+/gate/voxel_0063/geometry/setYLength 1 mm
+/gate/voxel_0063/geometry/setZLength 24.4 mm
+/gate/voxel_0063/setMaterial Plastic
+/gate/voxel_0063/vis/forceSolid
+/gate/voxel_0063/vis/setColor yellow
+/gate/voxel_0063/placement/setTranslation -8.5 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0064
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0064/geometry/setXLength 0.2 mm
+/gate/voxel_0064/geometry/setYLength 1 mm
+/gate/voxel_0064/geometry/setZLength 24.6 mm
+/gate/voxel_0064/setMaterial Plastic
+/gate/voxel_0064/vis/forceSolid
+/gate/voxel_0064/vis/setColor yellow
+/gate/voxel_0064/placement/setTranslation -8.3 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0065
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0065/geometry/setXLength 0.2 mm
+/gate/voxel_0065/geometry/setYLength 1 mm
+/gate/voxel_0065/geometry/setZLength 24.8 mm
+/gate/voxel_0065/setMaterial Plastic
+/gate/voxel_0065/vis/forceSolid
+/gate/voxel_0065/vis/setColor yellow
+/gate/voxel_0065/placement/setTranslation -8.1 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0066
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0066/geometry/setXLength 0.2 mm
+/gate/voxel_0066/geometry/setYLength 1 mm
+/gate/voxel_0066/geometry/setZLength 25.0 mm
+/gate/voxel_0066/setMaterial Plastic
+/gate/voxel_0066/vis/forceSolid
+/gate/voxel_0066/vis/setColor yellow
+/gate/voxel_0066/placement/setTranslation -7.9 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0067
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0067/geometry/setXLength 0.2 mm
+/gate/voxel_0067/geometry/setYLength 1 mm
+/gate/voxel_0067/geometry/setZLength 25.2 mm
+/gate/voxel_0067/setMaterial Plastic
+/gate/voxel_0067/vis/forceSolid
+/gate/voxel_0067/vis/setColor yellow
+/gate/voxel_0067/placement/setTranslation -7.7 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0068
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0068/geometry/setXLength 0.2 mm
+/gate/voxel_0068/geometry/setYLength 1 mm
+/gate/voxel_0068/geometry/setZLength 25.4 mm
+/gate/voxel_0068/setMaterial Plastic
+/gate/voxel_0068/vis/forceSolid
+/gate/voxel_0068/vis/setColor yellow
+/gate/voxel_0068/placement/setTranslation -7.5 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0069
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0069/geometry/setXLength 0.4 mm
+/gate/voxel_0069/geometry/setYLength 1 mm
+/gate/voxel_0069/geometry/setZLength 25.6 mm
+/gate/voxel_0069/setMaterial Plastic
+/gate/voxel_0069/vis/forceSolid
+/gate/voxel_0069/vis/setColor yellow
+/gate/voxel_0069/placement/setTranslation -7.2 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0070
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0070/geometry/setXLength 0.4 mm
+/gate/voxel_0070/geometry/setYLength 1 mm
+/gate/voxel_0070/geometry/setZLength 26.0 mm
+/gate/voxel_0070/setMaterial Plastic
+/gate/voxel_0070/vis/forceSolid
+/gate/voxel_0070/vis/setColor yellow
+/gate/voxel_0070/placement/setTranslation -6.8 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0071
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0071/geometry/setXLength 0.6 mm
+/gate/voxel_0071/geometry/setYLength 1 mm
+/gate/voxel_0071/geometry/setZLength 26.4 mm
+/gate/voxel_0071/setMaterial Plastic
+/gate/voxel_0071/vis/forceSolid
+/gate/voxel_0071/vis/setColor yellow
+/gate/voxel_0071/placement/setTranslation -6.3 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0072
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0072/geometry/setXLength 0.6 mm
+/gate/voxel_0072/geometry/setYLength 1 mm
+/gate/voxel_0072/geometry/setZLength 26.6 mm
+/gate/voxel_0072/setMaterial Plastic
+/gate/voxel_0072/vis/forceSolid
+/gate/voxel_0072/vis/setColor yellow
+/gate/voxel_0072/placement/setTranslation -5.7 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0073
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0073/geometry/setXLength 0.6 mm
+/gate/voxel_0073/geometry/setYLength 1 mm
+/gate/voxel_0073/geometry/setZLength 27.0 mm
+/gate/voxel_0073/setMaterial Plastic
+/gate/voxel_0073/vis/forceSolid
+/gate/voxel_0073/vis/setColor yellow
+/gate/voxel_0073/placement/setTranslation -5.1 0 -0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0074
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0074/geometry/setXLength 0.8 mm
+/gate/voxel_0074/geometry/setYLength 1 mm
+/gate/voxel_0074/geometry/setZLength 27.2 mm
+/gate/voxel_0074/setMaterial Plastic
+/gate/voxel_0074/vis/forceSolid
+/gate/voxel_0074/vis/setColor yellow
+/gate/voxel_0074/placement/setTranslation -4.4 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0075
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0075/geometry/setXLength 0.8 mm
+/gate/voxel_0075/geometry/setYLength 1 mm
+/gate/voxel_0075/geometry/setZLength 27.4 mm
+/gate/voxel_0075/setMaterial Plastic
+/gate/voxel_0075/vis/forceSolid
+/gate/voxel_0075/vis/setColor yellow
+/gate/voxel_0075/placement/setTranslation -3.6 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0076
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0076/geometry/setXLength 2.0 mm
+/gate/voxel_0076/geometry/setYLength 1 mm
+/gate/voxel_0076/geometry/setZLength 27.6 mm
+/gate/voxel_0076/setMaterial Plastic
+/gate/voxel_0076/vis/forceSolid
+/gate/voxel_0076/vis/setColor yellow
+/gate/voxel_0076/placement/setTranslation -2.2 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0077
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0077/geometry/setXLength 1.2 mm
+/gate/voxel_0077/geometry/setYLength 1 mm
+/gate/voxel_0077/geometry/setZLength 27.8 mm
+/gate/voxel_0077/setMaterial Plastic
+/gate/voxel_0077/vis/forceSolid
+/gate/voxel_0077/vis/setColor yellow
+/gate/voxel_0077/placement/setTranslation -0.6 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0078
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0078/geometry/setXLength 0.2 mm
+/gate/voxel_0078/geometry/setYLength 1 mm
+/gate/voxel_0078/geometry/setZLength 27.6 mm
+/gate/voxel_0078/setMaterial Plastic
+/gate/voxel_0078/vis/forceSolid
+/gate/voxel_0078/vis/setColor yellow
+/gate/voxel_0078/placement/setTranslation 0.1 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0079
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0079/geometry/setXLength 0.6 mm
+/gate/voxel_0079/geometry/setYLength 1 mm
+/gate/voxel_0079/geometry/setZLength 27.4 mm
+/gate/voxel_0079/setMaterial Plastic
+/gate/voxel_0079/vis/forceSolid
+/gate/voxel_0079/vis/setColor yellow
+/gate/voxel_0079/placement/setTranslation 0.5 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0080
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0080/geometry/setXLength 0.6 mm
+/gate/voxel_0080/geometry/setYLength 1 mm
+/gate/voxel_0080/geometry/setZLength 27.2 mm
+/gate/voxel_0080/setMaterial Plastic
+/gate/voxel_0080/vis/forceSolid
+/gate/voxel_0080/vis/setColor yellow
+/gate/voxel_0080/placement/setTranslation 1.1 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0081
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0081/geometry/setXLength 0.6 mm
+/gate/voxel_0081/geometry/setYLength 1 mm
+/gate/voxel_0081/geometry/setZLength 26.8 mm
+/gate/voxel_0081/setMaterial Plastic
+/gate/voxel_0081/vis/forceSolid
+/gate/voxel_0081/vis/setColor yellow
+/gate/voxel_0081/placement/setTranslation 1.7 0 -0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0082
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0082/geometry/setXLength 0.6 mm
+/gate/voxel_0082/geometry/setYLength 1 mm
+/gate/voxel_0082/geometry/setZLength 26.6 mm
+/gate/voxel_0082/setMaterial Plastic
+/gate/voxel_0082/vis/forceSolid
+/gate/voxel_0082/vis/setColor yellow
+/gate/voxel_0082/placement/setTranslation 2.3 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0083
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0083/geometry/setXLength 0.2 mm
+/gate/voxel_0083/geometry/setYLength 1 mm
+/gate/voxel_0083/geometry/setZLength 26.4 mm
+/gate/voxel_0083/setMaterial Plastic
+/gate/voxel_0083/vis/forceSolid
+/gate/voxel_0083/vis/setColor yellow
+/gate/voxel_0083/placement/setTranslation 2.7 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0084
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0084/geometry/setXLength 0.4 mm
+/gate/voxel_0084/geometry/setYLength 1 mm
+/gate/voxel_0084/geometry/setZLength 26.2 mm
+/gate/voxel_0084/setMaterial Plastic
+/gate/voxel_0084/vis/forceSolid
+/gate/voxel_0084/vis/setColor yellow
+/gate/voxel_0084/placement/setTranslation 3.0 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0085
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0085/geometry/setXLength 0.4 mm
+/gate/voxel_0085/geometry/setYLength 1 mm
+/gate/voxel_0085/geometry/setZLength 26.0 mm
+/gate/voxel_0085/setMaterial Plastic
+/gate/voxel_0085/vis/forceSolid
+/gate/voxel_0085/vis/setColor yellow
+/gate/voxel_0085/placement/setTranslation 3.4 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0086
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0086/geometry/setXLength 0.2 mm
+/gate/voxel_0086/geometry/setYLength 1 mm
+/gate/voxel_0086/geometry/setZLength 25.8 mm
+/gate/voxel_0086/setMaterial Plastic
+/gate/voxel_0086/vis/forceSolid
+/gate/voxel_0086/vis/setColor yellow
+/gate/voxel_0086/placement/setTranslation 3.7 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0087
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0087/geometry/setXLength 0.4 mm
+/gate/voxel_0087/geometry/setYLength 1 mm
+/gate/voxel_0087/geometry/setZLength 25.6 mm
+/gate/voxel_0087/setMaterial Plastic
+/gate/voxel_0087/vis/forceSolid
+/gate/voxel_0087/vis/setColor yellow
+/gate/voxel_0087/placement/setTranslation 4.0 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0088
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0088/geometry/setXLength 0.4 mm
+/gate/voxel_0088/geometry/setYLength 1 mm
+/gate/voxel_0088/geometry/setZLength 25.2 mm
+/gate/voxel_0088/setMaterial Plastic
+/gate/voxel_0088/vis/forceSolid
+/gate/voxel_0088/vis/setColor yellow
+/gate/voxel_0088/placement/setTranslation 4.4 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0089
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0089/geometry/setXLength 0.6 mm
+/gate/voxel_0089/geometry/setYLength 1 mm
+/gate/voxel_0089/geometry/setZLength 24.8 mm
+/gate/voxel_0089/setMaterial Plastic
+/gate/voxel_0089/vis/forceSolid
+/gate/voxel_0089/vis/setColor yellow
+/gate/voxel_0089/placement/setTranslation 4.9 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0090
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0090/geometry/setXLength 0.4 mm
+/gate/voxel_0090/geometry/setYLength 1 mm
+/gate/voxel_0090/geometry/setZLength 24.4 mm
+/gate/voxel_0090/setMaterial Plastic
+/gate/voxel_0090/vis/forceSolid
+/gate/voxel_0090/vis/setColor yellow
+/gate/voxel_0090/placement/setTranslation 5.4 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0091
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0091/geometry/setXLength 0.2 mm
+/gate/voxel_0091/geometry/setYLength 1 mm
+/gate/voxel_0091/geometry/setZLength 24.2 mm
+/gate/voxel_0091/setMaterial Plastic
+/gate/voxel_0091/vis/forceSolid
+/gate/voxel_0091/vis/setColor yellow
+/gate/voxel_0091/placement/setTranslation 5.7 0 -0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0092
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0092/geometry/setXLength 0.4 mm
+/gate/voxel_0092/geometry/setYLength 1 mm
+/gate/voxel_0092/geometry/setZLength 24.0 mm
+/gate/voxel_0092/setMaterial Plastic
+/gate/voxel_0092/vis/forceSolid
+/gate/voxel_0092/vis/setColor yellow
+/gate/voxel_0092/placement/setTranslation 6.0 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0093
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0093/geometry/setXLength 0.2 mm
+/gate/voxel_0093/geometry/setYLength 1 mm
+/gate/voxel_0093/geometry/setZLength 23.6 mm
+/gate/voxel_0093/setMaterial Plastic
+/gate/voxel_0093/vis/forceSolid
+/gate/voxel_0093/vis/setColor yellow
+/gate/voxel_0093/placement/setTranslation 6.3 0 -0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0094
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0094/geometry/setXLength 0.2 mm
+/gate/voxel_0094/geometry/setYLength 1 mm
+/gate/voxel_0094/geometry/setZLength 23.4 mm
+/gate/voxel_0094/setMaterial Plastic
+/gate/voxel_0094/vis/forceSolid
+/gate/voxel_0094/vis/setColor yellow
+/gate/voxel_0094/placement/setTranslation 6.5 0 -0.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0095
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0095/geometry/setXLength 0.2 mm
+/gate/voxel_0095/geometry/setYLength 1 mm
+/gate/voxel_0095/geometry/setZLength 23.2 mm
+/gate/voxel_0095/setMaterial Plastic
+/gate/voxel_0095/vis/forceSolid
+/gate/voxel_0095/vis/setColor yellow
+/gate/voxel_0095/placement/setTranslation 6.7 0 -0.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0096
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0096/geometry/setXLength 0.2 mm
+/gate/voxel_0096/geometry/setYLength 1 mm
+/gate/voxel_0096/geometry/setZLength 23.0 mm
+/gate/voxel_0096/setMaterial Plastic
+/gate/voxel_0096/vis/forceSolid
+/gate/voxel_0096/vis/setColor yellow
+/gate/voxel_0096/placement/setTranslation 6.9 0 -0.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0097
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0097/geometry/setXLength 0.2 mm
+/gate/voxel_0097/geometry/setYLength 1 mm
+/gate/voxel_0097/geometry/setZLength 22.8 mm
+/gate/voxel_0097/setMaterial Plastic
+/gate/voxel_0097/vis/forceSolid
+/gate/voxel_0097/vis/setColor yellow
+/gate/voxel_0097/placement/setTranslation 7.1 0 0.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0098
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0098/geometry/setXLength 0.2 mm
+/gate/voxel_0098/geometry/setYLength 1 mm
+/gate/voxel_0098/geometry/setZLength 22.4 mm
+/gate/voxel_0098/setMaterial Plastic
+/gate/voxel_0098/vis/forceSolid
+/gate/voxel_0098/vis/setColor yellow
+/gate/voxel_0098/placement/setTranslation 7.3 0 -0.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0099
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0099/geometry/setXLength 0.2 mm
+/gate/voxel_0099/geometry/setYLength 1 mm
+/gate/voxel_0099/geometry/setZLength 22.2 mm
+/gate/voxel_0099/setMaterial Plastic
+/gate/voxel_0099/vis/forceSolid
+/gate/voxel_0099/vis/setColor yellow
+/gate/voxel_0099/placement/setTranslation 7.5 0 0.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0100
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0100/geometry/setXLength 0.2 mm
+/gate/voxel_0100/geometry/setYLength 1 mm
+/gate/voxel_0100/geometry/setZLength 22.0 mm
+/gate/voxel_0100/setMaterial Plastic
+/gate/voxel_0100/vis/forceSolid
+/gate/voxel_0100/vis/setColor yellow
+/gate/voxel_0100/placement/setTranslation 7.7 0 0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0101
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0101/geometry/setXLength 0.2 mm
+/gate/voxel_0101/geometry/setYLength 1 mm
+/gate/voxel_0101/geometry/setZLength 21.8 mm
+/gate/voxel_0101/setMaterial Plastic
+/gate/voxel_0101/vis/forceSolid
+/gate/voxel_0101/vis/setColor yellow
+/gate/voxel_0101/placement/setTranslation 7.9 0 0.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0102
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0102/geometry/setXLength 0.2 mm
+/gate/voxel_0102/geometry/setYLength 1 mm
+/gate/voxel_0102/geometry/setZLength 21.6 mm
+/gate/voxel_0102/setMaterial Plastic
+/gate/voxel_0102/vis/forceSolid
+/gate/voxel_0102/vis/setColor yellow
+/gate/voxel_0102/placement/setTranslation 8.1 0 0.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0103
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0103/geometry/setXLength 0.2 mm
+/gate/voxel_0103/geometry/setYLength 1 mm
+/gate/voxel_0103/geometry/setZLength 21.4 mm
+/gate/voxel_0103/setMaterial Plastic
+/gate/voxel_0103/vis/forceSolid
+/gate/voxel_0103/vis/setColor yellow
+/gate/voxel_0103/placement/setTranslation 8.3 0 0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0104
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0104/geometry/setXLength 0.2 mm
+/gate/voxel_0104/geometry/setYLength 1 mm
+/gate/voxel_0104/geometry/setZLength 21.0 mm
+/gate/voxel_0104/setMaterial Plastic
+/gate/voxel_0104/vis/forceSolid
+/gate/voxel_0104/vis/setColor yellow
+/gate/voxel_0104/placement/setTranslation 8.5 0 0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0105
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0105/geometry/setXLength 0.2 mm
+/gate/voxel_0105/geometry/setYLength 1 mm
+/gate/voxel_0105/geometry/setZLength 20.8 mm
+/gate/voxel_0105/setMaterial Plastic
+/gate/voxel_0105/vis/forceSolid
+/gate/voxel_0105/vis/setColor yellow
+/gate/voxel_0105/placement/setTranslation 8.7 0 0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0106
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0106/geometry/setXLength 0.2 mm
+/gate/voxel_0106/geometry/setYLength 1 mm
+/gate/voxel_0106/geometry/setZLength 20.6 mm
+/gate/voxel_0106/setMaterial Plastic
+/gate/voxel_0106/vis/forceSolid
+/gate/voxel_0106/vis/setColor yellow
+/gate/voxel_0106/placement/setTranslation 8.9 0 0.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0107
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0107/geometry/setXLength 0.4 mm
+/gate/voxel_0107/geometry/setYLength 1 mm
+/gate/voxel_0107/geometry/setZLength 20.4 mm
+/gate/voxel_0107/setMaterial Plastic
+/gate/voxel_0107/vis/forceSolid
+/gate/voxel_0107/vis/setColor yellow
+/gate/voxel_0107/placement/setTranslation 9.2 0 0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0108
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0108/geometry/setXLength 0.2 mm
+/gate/voxel_0108/geometry/setYLength 1 mm
+/gate/voxel_0108/geometry/setZLength 20.0 mm
+/gate/voxel_0108/setMaterial Plastic
+/gate/voxel_0108/vis/forceSolid
+/gate/voxel_0108/vis/setColor yellow
+/gate/voxel_0108/placement/setTranslation 9.5 0 0.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0109
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0109/geometry/setXLength 0.4 mm
+/gate/voxel_0109/geometry/setYLength 1 mm
+/gate/voxel_0109/geometry/setZLength 19.8 mm
+/gate/voxel_0109/setMaterial Plastic
+/gate/voxel_0109/vis/forceSolid
+/gate/voxel_0109/vis/setColor yellow
+/gate/voxel_0109/placement/setTranslation 9.8 0 0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0110
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0110/geometry/setXLength 0.2 mm
+/gate/voxel_0110/geometry/setYLength 1 mm
+/gate/voxel_0110/geometry/setZLength 19.4 mm
+/gate/voxel_0110/setMaterial Plastic
+/gate/voxel_0110/vis/forceSolid
+/gate/voxel_0110/vis/setColor yellow
+/gate/voxel_0110/placement/setTranslation 10.1 0 0.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0111
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0111/geometry/setXLength 0.2 mm
+/gate/voxel_0111/geometry/setYLength 1 mm
+/gate/voxel_0111/geometry/setZLength 19.2 mm
+/gate/voxel_0111/setMaterial Plastic
+/gate/voxel_0111/vis/forceSolid
+/gate/voxel_0111/vis/setColor yellow
+/gate/voxel_0111/placement/setTranslation 10.3 0 0.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0112
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0112/geometry/setXLength 0.4 mm
+/gate/voxel_0112/geometry/setYLength 1 mm
+/gate/voxel_0112/geometry/setZLength 19.0 mm
+/gate/voxel_0112/setMaterial Plastic
+/gate/voxel_0112/vis/forceSolid
+/gate/voxel_0112/vis/setColor yellow
+/gate/voxel_0112/placement/setTranslation 10.6 0 0.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0113
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0113/geometry/setXLength 0.2 mm
+/gate/voxel_0113/geometry/setYLength 1 mm
+/gate/voxel_0113/geometry/setZLength 18.8 mm
+/gate/voxel_0113/setMaterial Plastic
+/gate/voxel_0113/vis/forceSolid
+/gate/voxel_0113/vis/setColor yellow
+/gate/voxel_0113/placement/setTranslation 10.9 0 0.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0114
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0114/geometry/setXLength 0.2 mm
+/gate/voxel_0114/geometry/setYLength 1 mm
+/gate/voxel_0114/geometry/setZLength 18.4 mm
+/gate/voxel_0114/setMaterial Plastic
+/gate/voxel_0114/vis/forceSolid
+/gate/voxel_0114/vis/setColor yellow
+/gate/voxel_0114/placement/setTranslation 11.1 0 0.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0115
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0115/geometry/setXLength 0.2 mm
+/gate/voxel_0115/geometry/setYLength 1 mm
+/gate/voxel_0115/geometry/setZLength 18.2 mm
+/gate/voxel_0115/setMaterial Plastic
+/gate/voxel_0115/vis/forceSolid
+/gate/voxel_0115/vis/setColor yellow
+/gate/voxel_0115/placement/setTranslation 11.3 0 0.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0116
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0116/geometry/setXLength 0.2 mm
+/gate/voxel_0116/geometry/setYLength 1 mm
+/gate/voxel_0116/geometry/setZLength 18.0 mm
+/gate/voxel_0116/setMaterial Plastic
+/gate/voxel_0116/vis/forceSolid
+/gate/voxel_0116/vis/setColor yellow
+/gate/voxel_0116/placement/setTranslation 11.5 0 1.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0117
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0117/geometry/setXLength 0.2 mm
+/gate/voxel_0117/geometry/setYLength 1 mm
+/gate/voxel_0117/geometry/setZLength 17.8 mm
+/gate/voxel_0117/setMaterial Plastic
+/gate/voxel_0117/vis/forceSolid
+/gate/voxel_0117/vis/setColor yellow
+/gate/voxel_0117/placement/setTranslation 11.7 0 1.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0118
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0118/geometry/setXLength 0.2 mm
+/gate/voxel_0118/geometry/setYLength 1 mm
+/gate/voxel_0118/geometry/setZLength 17.6 mm
+/gate/voxel_0118/setMaterial Plastic
+/gate/voxel_0118/vis/forceSolid
+/gate/voxel_0118/vis/setColor yellow
+/gate/voxel_0118/placement/setTranslation 11.9 0 1.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0119
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0119/geometry/setXLength 0.4 mm
+/gate/voxel_0119/geometry/setYLength 1 mm
+/gate/voxel_0119/geometry/setZLength 17.4 mm
+/gate/voxel_0119/setMaterial Plastic
+/gate/voxel_0119/vis/forceSolid
+/gate/voxel_0119/vis/setColor yellow
+/gate/voxel_0119/placement/setTranslation 12.2 0 1.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0120
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0120/geometry/setXLength 0.2 mm
+/gate/voxel_0120/geometry/setYLength 1 mm
+/gate/voxel_0120/geometry/setZLength 17.2 mm
+/gate/voxel_0120/setMaterial Plastic
+/gate/voxel_0120/vis/forceSolid
+/gate/voxel_0120/vis/setColor yellow
+/gate/voxel_0120/placement/setTranslation 12.5 0 1.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0121
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0121/geometry/setXLength 0.2 mm
+/gate/voxel_0121/geometry/setYLength 1 mm
+/gate/voxel_0121/geometry/setZLength 17.0 mm
+/gate/voxel_0121/setMaterial Plastic
+/gate/voxel_0121/vis/forceSolid
+/gate/voxel_0121/vis/setColor yellow
+/gate/voxel_0121/placement/setTranslation 12.7 0 1.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0122
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0122/geometry/setXLength 0.2 mm
+/gate/voxel_0122/geometry/setYLength 1 mm
+/gate/voxel_0122/geometry/setZLength 16.6 mm
+/gate/voxel_0122/setMaterial Plastic
+/gate/voxel_0122/vis/forceSolid
+/gate/voxel_0122/vis/setColor yellow
+/gate/voxel_0122/placement/setTranslation 12.9 0 1.5 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0123
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0123/geometry/setXLength 0.2 mm
+/gate/voxel_0123/geometry/setYLength 1 mm
+/gate/voxel_0123/geometry/setZLength 16.4 mm
+/gate/voxel_0123/setMaterial Plastic
+/gate/voxel_0123/vis/forceSolid
+/gate/voxel_0123/vis/setColor yellow
+/gate/voxel_0123/placement/setTranslation 13.1 0 1.6 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0124
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0124/geometry/setXLength 0.2 mm
+/gate/voxel_0124/geometry/setYLength 1 mm
+/gate/voxel_0124/geometry/setZLength 16.2 mm
+/gate/voxel_0124/setMaterial Plastic
+/gate/voxel_0124/vis/forceSolid
+/gate/voxel_0124/vis/setColor yellow
+/gate/voxel_0124/placement/setTranslation 13.3 0 1.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0125
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0125/geometry/setXLength 0.2 mm
+/gate/voxel_0125/geometry/setYLength 1 mm
+/gate/voxel_0125/geometry/setZLength 15.8 mm
+/gate/voxel_0125/setMaterial Plastic
+/gate/voxel_0125/vis/forceSolid
+/gate/voxel_0125/vis/setColor yellow
+/gate/voxel_0125/placement/setTranslation 13.5 0 1.7 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0126
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0126/geometry/setXLength 0.2 mm
+/gate/voxel_0126/geometry/setYLength 1 mm
+/gate/voxel_0126/geometry/setZLength 15.6 mm
+/gate/voxel_0126/setMaterial Plastic
+/gate/voxel_0126/vis/forceSolid
+/gate/voxel_0126/vis/setColor yellow
+/gate/voxel_0126/placement/setTranslation 13.7 0 1.8 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0127
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0127/geometry/setXLength 0.2 mm
+/gate/voxel_0127/geometry/setYLength 1 mm
+/gate/voxel_0127/geometry/setZLength 15.4 mm
+/gate/voxel_0127/setMaterial Plastic
+/gate/voxel_0127/vis/forceSolid
+/gate/voxel_0127/vis/setColor yellow
+/gate/voxel_0127/placement/setTranslation 13.9 0 1.9 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0128
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0128/geometry/setXLength 0.2 mm
+/gate/voxel_0128/geometry/setYLength 1 mm
+/gate/voxel_0128/geometry/setZLength 15.2 mm
+/gate/voxel_0128/setMaterial Plastic
+/gate/voxel_0128/vis/forceSolid
+/gate/voxel_0128/vis/setColor yellow
+/gate/voxel_0128/placement/setTranslation 14.1 0 2.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0129
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0129/geometry/setXLength 0.2 mm
+/gate/voxel_0129/geometry/setYLength 1 mm
+/gate/voxel_0129/geometry/setZLength 14.8 mm
+/gate/voxel_0129/setMaterial Plastic
+/gate/voxel_0129/vis/forceSolid
+/gate/voxel_0129/vis/setColor yellow
+/gate/voxel_0129/placement/setTranslation 14.3 0 2.0 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0130
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0130/geometry/setXLength 0.4 mm
+/gate/voxel_0130/geometry/setYLength 1 mm
+/gate/voxel_0130/geometry/setZLength 14.6 mm
+/gate/voxel_0130/setMaterial Plastic
+/gate/voxel_0130/vis/forceSolid
+/gate/voxel_0130/vis/setColor yellow
+/gate/voxel_0130/placement/setTranslation 14.6 0 2.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0131
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0131/geometry/setXLength 0.2 mm
+/gate/voxel_0131/geometry/setYLength 1 mm
+/gate/voxel_0131/geometry/setZLength 14.2 mm
+/gate/voxel_0131/setMaterial Plastic
+/gate/voxel_0131/vis/forceSolid
+/gate/voxel_0131/vis/setColor yellow
+/gate/voxel_0131/placement/setTranslation 14.9 0 2.1 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0132
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0132/geometry/setXLength 0.2 mm
+/gate/voxel_0132/geometry/setYLength 1 mm
+/gate/voxel_0132/geometry/setZLength 14.0 mm
+/gate/voxel_0132/setMaterial Plastic
+/gate/voxel_0132/vis/forceSolid
+/gate/voxel_0132/vis/setColor yellow
+/gate/voxel_0132/placement/setTranslation 15.1 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0133
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0133/geometry/setXLength 0.4 mm
+/gate/voxel_0133/geometry/setYLength 1 mm
+/gate/voxel_0133/geometry/setZLength 13.6 mm
+/gate/voxel_0133/setMaterial Plastic
+/gate/voxel_0133/vis/forceSolid
+/gate/voxel_0133/vis/setColor yellow
+/gate/voxel_0133/placement/setTranslation 15.4 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0134
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0134/geometry/setXLength 0.2 mm
+/gate/voxel_0134/geometry/setYLength 1 mm
+/gate/voxel_0134/geometry/setZLength 13.2 mm
+/gate/voxel_0134/setMaterial Plastic
+/gate/voxel_0134/vis/forceSolid
+/gate/voxel_0134/vis/setColor yellow
+/gate/voxel_0134/placement/setTranslation 15.7 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0135
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0135/geometry/setXLength 0.2 mm
+/gate/voxel_0135/geometry/setYLength 1 mm
+/gate/voxel_0135/geometry/setZLength 12.8 mm
+/gate/voxel_0135/setMaterial Plastic
+/gate/voxel_0135/vis/forceSolid
+/gate/voxel_0135/vis/setColor yellow
+/gate/voxel_0135/placement/setTranslation 15.9 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0136
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0136/geometry/setXLength 0.2 mm
+/gate/voxel_0136/geometry/setYLength 1 mm
+/gate/voxel_0136/geometry/setZLength 12.4 mm
+/gate/voxel_0136/setMaterial Plastic
+/gate/voxel_0136/vis/forceSolid
+/gate/voxel_0136/vis/setColor yellow
+/gate/voxel_0136/placement/setTranslation 16.1 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0137
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0137/geometry/setXLength 0.2 mm
+/gate/voxel_0137/geometry/setYLength 1 mm
+/gate/voxel_0137/geometry/setZLength 11.8 mm
+/gate/voxel_0137/setMaterial Plastic
+/gate/voxel_0137/vis/forceSolid
+/gate/voxel_0137/vis/setColor yellow
+/gate/voxel_0137/placement/setTranslation 16.3 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0138
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0138/geometry/setXLength 0.2 mm
+/gate/voxel_0138/geometry/setYLength 1 mm
+/gate/voxel_0138/geometry/setZLength 11.4 mm
+/gate/voxel_0138/setMaterial Plastic
+/gate/voxel_0138/vis/forceSolid
+/gate/voxel_0138/vis/setColor yellow
+/gate/voxel_0138/placement/setTranslation 16.5 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0139
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0139/geometry/setXLength 0.2 mm
+/gate/voxel_0139/geometry/setYLength 1 mm
+/gate/voxel_0139/geometry/setZLength 10.8 mm
+/gate/voxel_0139/setMaterial Plastic
+/gate/voxel_0139/vis/forceSolid
+/gate/voxel_0139/vis/setColor yellow
+/gate/voxel_0139/placement/setTranslation 16.7 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0140
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0140/geometry/setXLength 0.2 mm
+/gate/voxel_0140/geometry/setYLength 1 mm
+/gate/voxel_0140/geometry/setZLength 10.4 mm
+/gate/voxel_0140/setMaterial Plastic
+/gate/voxel_0140/vis/forceSolid
+/gate/voxel_0140/vis/setColor yellow
+/gate/voxel_0140/placement/setTranslation 16.9 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0141
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0141/geometry/setXLength 0.2 mm
+/gate/voxel_0141/geometry/setYLength 1 mm
+/gate/voxel_0141/geometry/setZLength 10.0 mm
+/gate/voxel_0141/setMaterial Plastic
+/gate/voxel_0141/vis/forceSolid
+/gate/voxel_0141/vis/setColor yellow
+/gate/voxel_0141/placement/setTranslation 17.1 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0142
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0142/geometry/setXLength 0.2 mm
+/gate/voxel_0142/geometry/setYLength 1 mm
+/gate/voxel_0142/geometry/setZLength 9.6 mm
+/gate/voxel_0142/setMaterial Plastic
+/gate/voxel_0142/vis/forceSolid
+/gate/voxel_0142/vis/setColor yellow
+/gate/voxel_0142/placement/setTranslation 17.3 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0143
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0143/geometry/setXLength 0.2 mm
+/gate/voxel_0143/geometry/setYLength 1 mm
+/gate/voxel_0143/geometry/setZLength 9.2 mm
+/gate/voxel_0143/setMaterial Plastic
+/gate/voxel_0143/vis/forceSolid
+/gate/voxel_0143/vis/setColor yellow
+/gate/voxel_0143/placement/setTranslation 17.5 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0144
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0144/geometry/setXLength 0.2 mm
+/gate/voxel_0144/geometry/setYLength 1 mm
+/gate/voxel_0144/geometry/setZLength 8.8 mm
+/gate/voxel_0144/setMaterial Plastic
+/gate/voxel_0144/vis/forceSolid
+/gate/voxel_0144/vis/setColor yellow
+/gate/voxel_0144/placement/setTranslation 17.7 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0145
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0145/geometry/setXLength 0.2 mm
+/gate/voxel_0145/geometry/setYLength 1 mm
+/gate/voxel_0145/geometry/setZLength 8.4 mm
+/gate/voxel_0145/setMaterial Plastic
+/gate/voxel_0145/vis/forceSolid
+/gate/voxel_0145/vis/setColor yellow
+/gate/voxel_0145/placement/setTranslation 17.9 0 2.4 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0146
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0146/geometry/setXLength 0.2 mm
+/gate/voxel_0146/geometry/setYLength 1 mm
+/gate/voxel_0146/geometry/setZLength 7.8 mm
+/gate/voxel_0146/setMaterial Plastic
+/gate/voxel_0146/vis/forceSolid
+/gate/voxel_0146/vis/setColor yellow
+/gate/voxel_0146/placement/setTranslation 18.1 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0147
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0147/geometry/setXLength 0.2 mm
+/gate/voxel_0147/geometry/setYLength 1 mm
+/gate/voxel_0147/geometry/setZLength 7.4 mm
+/gate/voxel_0147/setMaterial Plastic
+/gate/voxel_0147/vis/forceSolid
+/gate/voxel_0147/vis/setColor yellow
+/gate/voxel_0147/placement/setTranslation 18.3 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0148
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0148/geometry/setXLength 0.2 mm
+/gate/voxel_0148/geometry/setYLength 1 mm
+/gate/voxel_0148/geometry/setZLength 6.8 mm
+/gate/voxel_0148/setMaterial Plastic
+/gate/voxel_0148/vis/forceSolid
+/gate/voxel_0148/vis/setColor yellow
+/gate/voxel_0148/placement/setTranslation 18.5 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0149
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0149/geometry/setXLength 0.2 mm
+/gate/voxel_0149/geometry/setYLength 1 mm
+/gate/voxel_0149/geometry/setZLength 6.0 mm
+/gate/voxel_0149/setMaterial Plastic
+/gate/voxel_0149/vis/forceSolid
+/gate/voxel_0149/vis/setColor yellow
+/gate/voxel_0149/placement/setTranslation 18.7 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0150
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0150/geometry/setXLength 0.2 mm
+/gate/voxel_0150/geometry/setYLength 1 mm
+/gate/voxel_0150/geometry/setZLength 5.4 mm
+/gate/voxel_0150/setMaterial Plastic
+/gate/voxel_0150/vis/forceSolid
+/gate/voxel_0150/vis/setColor yellow
+/gate/voxel_0150/placement/setTranslation 18.9 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0151
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0151/geometry/setXLength 0.2 mm
+/gate/voxel_0151/geometry/setYLength 1 mm
+/gate/voxel_0151/geometry/setZLength 4.6 mm
+/gate/voxel_0151/setMaterial Plastic
+/gate/voxel_0151/vis/forceSolid
+/gate/voxel_0151/vis/setColor yellow
+/gate/voxel_0151/placement/setTranslation 19.1 0 2.3 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0152
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0152/geometry/setXLength 0.2 mm
+/gate/voxel_0152/geometry/setYLength 1 mm
+/gate/voxel_0152/geometry/setZLength 3.6 mm
+/gate/voxel_0152/setMaterial Plastic
+/gate/voxel_0152/vis/forceSolid
+/gate/voxel_0152/vis/setColor yellow
+/gate/voxel_0152/placement/setTranslation 19.3 0 2.2 mm
+
+/gate/encapsulatingBox/daughters/name voxel_0153
+/gate/encapsulatingBox/daughters/insert box
+/gate/voxel_0153/geometry/setXLength 0.2 mm
+/gate/voxel_0153/geometry/setYLength 1 mm
+/gate/voxel_0153/geometry/setZLength 1.6 mm
+/gate/voxel_0153/setMaterial Plastic
+/gate/voxel_0153/vis/forceSolid
+/gate/voxel_0153/vis/setColor yellow
+/gate/voxel_0153/placement/setTranslation 19.5 0 2.0 mm
+
