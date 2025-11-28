@@ -1,1 +1,22 @@
 
+# This is the standard visualization tool based on OpenGL
+/vis/enable
+/vis/viewer/flush
+/vis/open OGLSX
+#/vis/viewer/zoom 1
+#/vis/viewer/set/viewpointVector 1 1 1
+#/vis/viewer/set/projection perspective
+/vis/viewer/set/viewpointVector 1 10 1
+#/vis/viewer/set/viewpointThetaPhi 75 35
+#/vis/viewer/zoom 4
+#/vis/viewer/set/viewpointThetaPhi 0 0
+/vis/viewer/zoom 3.2
+
+#/vis/viewer/set/projection perspective
+#/vis/viewer/set/lightsMove camera
+/vis/drawVolume
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories
+# Next command is to show all the photons during the experiment
+#/vis/scene/endOfEventAction accumulate
+#/vis/scene/add/axes 
