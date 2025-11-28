@@ -1,0 +1,117 @@
+## This is a parameterised macro. 
+# {startangle}
+# {endangle}
+
+
+### VISUALIZATION
+/control/execute macros/visu.mac
+#/vis/disable
+
+### Write to cmd
+#/gate/verbose 2
+#/control/verbose 2
+#/run/particle/verbose 2
+#/gate/generator/verbose 0
+#/gate/source/verbose 0
+#/run/verbose 2
+#/gate/verbose Geometry 2
+
+### TRACKING OF PHOTONS
+#/tracking/verbose 2
+
+### MATERIALS 
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+### WORLD
+/gate/world/geometry/setXLength 470 mm
+/gate/world/geometry/setYLength 470 mm
+/gate/world/geometry/setZLength 850 mm
+/gate/world/setMaterial Air
+/gate/world/vis/forceWireframe
+/gate/world/vis/setColor white
+
+### SCANNER
+/control/execute macros/scanner.mac
+
+### FURTHER ELEMENTS (vacuum chamber, window, etc.)
+/control/execute macros/additional.mac
+
+### PHANTOM
+#/control/execute macros/phantoms/vox-phantom01.mac
+/control/execute macros/phantoms/decomposed-phantom_3-h.mac
+
+### PHYSICAL PROCESSES
+/control/execute macros/physics.mac
+
+### INITIALIZATION
+/gate/run/initialize
+#/geometry/test/run
+
+### DIGITIZER
+/control/execute macros/digitizer_old.mac
+
+### SOURCE
+/control/execute macros/sources/sMono20.mac
+
+### OUTPUT
+
+########
+# ROOT #
+########
+#/gate/output/root/enable
+#/gate/output/root/setFileName outputs/proba/result_ct
+#/gate/output/root/setRootHitFlag 0
+#/gate/output/root/setRootSinglesFlag 1
+#/gate/output/root/setRootNtupleFlag 0
+#/gate/output/verbose 2
+
+# ASCII Output format
+#/gate/output/ascii/enable
+#/gate/output/ascii/setFileName outputs/proba/result_ct
+#/gate/output/ascii/setOutFileHitsFlag 0
+#/gate/output/ascii/setOutFileSinglesFlag 1
+
+#/gate/output/imageCT/verbose 2
+/gate/output/imageCT/enable
+/gate/output/imageCT/setFileName outputs/proba/result_ct
+
+
+
+## ==============================================================================================
+## Random generator (MersenneTwister is highly recommended)
+/gate/random/setEngineName MersenneTwister
+#/gate/random/verbose 0
+
+# The random engine seed can be fixed in different ways:
+# First way using the keyword 'default': in this case the default CLHEP seed (hard-fixed) is used
+# This the one I used in most of the experiments
+#/gate/random/setEngineSeed default
+# Second way using the keyword 'auto': in this case the seed is generated from the CPU time and the
+# process ID of the GATE instance, so it can be assumed to be different each time GATE is launched
+#/gate/random/setEngineSeed default
+# Third way using a provided seed as a unsigned integer
+#/gate/random/setEngineSeed 1234 
+/gate/random/setEngineSeed auto
+
+## ==============================================================================================
+
+### ACQUISITION
+# Set here the number of particles to be generated
+/gate/application/setNumberOfPrimariesPerRun 1e5
+
+# Set the number of projection per slice
+/gate/application/setTimeSlice 1 s
+
+# Set the number of projection
+/gate/application/setTimeStart {startangle} s
+/gate/application/setTimeStop {endangle} s
+
+#/gate/application/setTimeStart 0 s
+#/gate/application/setTimeStop 360 s
+#/gate/application/setTimeStop 72 s
+
+# This last command actually launch the simulation
+/gate/application/startDAQ
+
+
+
