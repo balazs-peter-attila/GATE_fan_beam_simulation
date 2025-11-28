@@ -3,6 +3,8 @@ Codes used in the paper "Simulating Equidistant Fan-Beam Binary Tomography for 2
 
 The GATE scripts are written in GATE v9.2
 
+Python script dependency: https://github.com/thomashirtz/mosaic
+
 ## Disclaimer
 This code is provided "as-is" for educational purposes only. 
 The author is not responsible for any damage or loss caused by using this code.
